@@ -1,0 +1,5 @@
+feet = float(input("How many feet do you want converted to light years?"))
+meters = float(feet/(3.28))
+seconds = float(365.24*24*3600)
+speed = float(meters / (seconds * 3 * (10**8)))
+print(str(speed))
